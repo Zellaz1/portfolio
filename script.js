@@ -31,3 +31,8 @@ for (let i = 0; i < headerSmallMenuLinks.length; i++) {
 }
 
 // ---
+const headerLogoConatiner = document.querySelector('.header__logo-container')
+
+headerLogoConatiner.addEventListener('click', () => {
+  location.href = '/'
+})
